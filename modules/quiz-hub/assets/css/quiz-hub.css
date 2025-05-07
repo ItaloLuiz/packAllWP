@@ -1,0 +1,39 @@
+/**
+ * Estilos para o módulo Quiz Hub
+ */
+
+ .quiz-hub-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.quiz-hub-container iframe,
+.quiz-hub-container embed,
+.quiz-hub-container object,
+.quiz-hub-container video {
+    max-width: 100%;
+    width: 100%;
+}
+
+.quiz-hub-page-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.quiz-hub-content {
+    width: 100%;
+}
+
+.quiz-hub-container .error {
+    color: #ff0000;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+    border-radius: 4px;
+}

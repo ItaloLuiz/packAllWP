@@ -1,0 +1,181 @@
+/**
+ * Estilos para o módulo Button
+ */
+
+/* Estilo base para todos os botões */
+.pack-all-wp-btn {
+    width: 100% !important;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pack-all-wp-btn:hover,
+.pack-all-wp-btn:focus {
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.pack-all-wp-btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Botão padrão */
+.btn-padrao {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-padrao:hover {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+/* Botão primário */
+.btn-primario {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primario:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Botão secundário */
+.btn-secundario {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secundario:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Botão sucesso */
+.btn-sucesso {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-sucesso:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Botão alerta */
+.btn-alerta {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-alerta:hover {
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+/* Botão perigo */
+.btn-perigo {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-perigo:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Botão info */
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+/* Botão fantasma */
+.btn-fantasma {
+    color: #212529;
+    background-color: transparent;
+    border-color: #6c757d;
+}
+
+.btn-fantasma:hover {
+    color: #212529;
+    background-color: rgba(108, 117, 125, 0.1);
+}
+
+/* Botão link */
+.btn-link {
+    font-weight: 400;
+    color: #007bff;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+}
+
+.btn-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/* Tamanhos de botão */
+.btn-pequeno {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+.btn-grande {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+/* Botão de largura total */
+.btn-bloco {
+    display: block;
+    width: 100%;
+}
+
+.pack-all-wp-btn-label{
+    width: 100%;
+    position:relative;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
