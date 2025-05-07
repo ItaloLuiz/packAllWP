@@ -3,7 +3,7 @@
  * Plugin Name: packAllWP
  * Plugin URI: https://github.com/ItaloLuiz/packAllWP
  * Description: Plugin modular com múltiplas funcionalidades
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: ítalo
  * Author URI: https://github.com/ItaloLuiz/packAllWP
  * Text Domain: pack-all-wp
