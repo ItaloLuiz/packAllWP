@@ -45,7 +45,7 @@ class PackAllWP_GitHub_Updater {
         $this->plugin_slug = 'pack-all-wp';
         $this->plugin_name = 'packAllWP';
         $this->version = PACK_ALL_WP_VERSION;
-        $this->github_username = 'seu-usuario-github'; // Altere para seu usuário GitHub
+        $this->github_username = 'ItaloLuiz'; // Altere para seu usuário GitHub
         $this->github_repo = 'packAllWP'; // Altere para o nome do seu repositório
         $this->github_api_url = 'https://api.github.com/repos/' . $this->github_username . '/' . $this->github_repo . '/releases/latest';
         $this->plugin_file = plugin_basename(PACK_ALL_WP_DIR . 'packAllWP.php');
