@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Definir constantes
-define('PACK_ALL_WP_VERSION', '1.0.0');
+define('PACK_ALL_WP_VERSION', '1.0.1');
 define('PACK_ALL_WP_DIR', plugin_dir_path(__FILE__));
 define('PACK_ALL_WP_URL', plugin_dir_url(__FILE__));
 define('PACK_ALL_WP_GITHUB_UPDATER', true); // Ative para suporte a atualizações via GitHub
